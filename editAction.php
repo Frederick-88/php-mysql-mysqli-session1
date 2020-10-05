@@ -8,7 +8,7 @@ if (isset($_POST['update'])) {
     $author = $_POST['author'];
     $year = $_POST['year'];
 
-    // PDO way
+    // PDO waya
     // $query = ("UPDATE bookfield SET title='$title', author='$author', year='$year' WHERE id=$id");
     // $statement = $conn->prepare($query);
     // $statement->execute();
